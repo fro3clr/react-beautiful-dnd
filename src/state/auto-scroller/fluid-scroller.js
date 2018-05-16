@@ -24,10 +24,10 @@ import type {
 // Values used to control how the fluid auto scroll feels
 export const config = {
   // percentage distance from edge of container:
-  startFrom: 0.01,
-  maxSpeedAt: 0.05,
+  startFrom: 0.001,
+  maxSpeedAt: 0.001,
   // pixels per frame
-  maxScrollSpeed: 2,
+  maxScrollSpeed: 1,
   // A function used to ease the distance been the startFrom and maxSpeedAt values
   // A simple linear function would be: (percentage) => percentage;
   // percentage is between 0 and 1
